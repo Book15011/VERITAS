@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="taskRecyclerView" type="id" />
+    <item name="addTaskButton" type="id" />
+    <item name="taskNameTextView" type="id" />
+    <item name="taskSubjectTextView" type="id" />
+
+    <string name="usage">Usage</string>
+    <string name="score">Score</string>
+    <string name="task_reminder">Task Reminder</string>
+
+    <string-array name="chart_types">
+        <item>Usage</item>
+        <item>Score</item>
+        <item>Task Reminder</item>
+    </string-array>
+</resources>

@@ -1,0 +1,65 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+    id 'kotlin-android-extensions'
+}
+
+android {
+    namespace 'com.example.loginregister'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.loginregister"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildToolsVersion '34.0.0'
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.firebase:firebase-auth:22.1.1'
+    implementation 'com.google.firebase:firebase-auth-ktx:22.1.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0'
+
+    implementation 'com.akexorcist:round-corner-progress-bar:2.1.2'
+    implementation 'nl.dionsegijn:konfetti-xml:2.0.2'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.22'
+
+    implementation 'com.github.jinatonic.confetti:confetti:1.1.2'
+    implementation 'com.github.Shashank02051997:FancyGifDialog-Android:1.5'
+
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation fileTree(dir: 'D:\\tegmang ochirib tashlaman', include: ['*.aar', '*.jar'], exclude: [])
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'com.google.code.gson:gson:2.10'
+    implementation 'com.tbuonomo:dotsindicator:4.3'
+    implementation "com.maltaisn:calcdialog:2.2.1"
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+    //
+    implementation 'androidx.core:core-splashscreen:1.0.0'
+    implementation 'com.google.firebase:firebase-firestore:24.7.0'
+
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+}

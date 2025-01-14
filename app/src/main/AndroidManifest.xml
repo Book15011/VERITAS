@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LoginRegister"
+        tools:targetApi="31">
+        <activity
+            android:name=".Ai_teacher"
+            android:exported="false" />
+        <activity
+            android:name=".SelfTracking_main"
+            android:exported="false"
+            android:theme="@style/Theme.QuizApp"></activity>
+        <activity
+            android:name=".Selftracking_taskren"
+            android:exported="false"></activity>
+        <activity
+            android:name=".Scholar_national"
+            android:exported="false" />
+        <activity
+            android:name=".Scholar_inter_nation_link"
+            android:exported="false" />
+        <activity
+            android:name=".ui.page.MathQuizActivity"
+            android:exported="false"
+            android:theme="@style/Theme.QuizApp" />
+        <activity
+            android:name=".ui.RulesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.FinalResultActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.QuizApp" />
+        <activity
+            android:name=".ui.QuizOptionActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Blindmode_tblind"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" /> <!-- Activity Definitions -->
+        <activity
+            android:name=".Scholarship_main"
+            android:exported="true" />
+        <activity
+            android:name=".AcademicLevelTest"
+            android:exported="true" />
+        <activity
+            android:name=".QualityEducation"
+            android:exported="true" />
+        <activity
+            android:name=".Englishcourse_main"
+            android:exported="true" />
+        <activity
+            android:name=".Englishcourse_Alphabets"
+            android:exported="true" />
+        <activity
+            android:name=".Englishcourse_Alphabets_exact"
+            android:exported="true" />
+        <activity
+            android:name=".Englishcourse_words"
+            android:exported="true" />
+        <activity
+            android:name=".Braille_main"
+            android:exported="true"
+            android:theme="@style/Theme.LoginRegister" />
+        <activity
+            android:name=".Blindmode_main"
+            android:exported="true" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

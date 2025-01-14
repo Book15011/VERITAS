@@ -1,0 +1,78 @@
+<resources>
+    <string name="app">LoginRegister</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Back to Login</string>
+    <string name="click_to_register">Don\'t have an account? Register</string>
+    <string name="logout">Logout</string>
+    <string name="app_explain1">paves the way for quality</string>
+    <string name="app_explain2">education through innovative</string>
+    <string name="app_explain3">learning methods.</string>
+    <string name="veritas">VERITAS</string>
+    <string name="quality_education">Quality Education</string>
+    <string name="academic_level_test">Academic Level Test</string>
+    <string name="scholarship">scholarship</string>
+    <string name="concept_summary">concept summary</string>
+    <string name="blind">Blind</string>
+    <string name="self_tracking">Self- Tracking</string>
+    <string name="useful_study_link">Useful Study Link</string>
+    <string name="viewpager_description">Flashcard View Pager</string>
+    <string name="cheap_en">Cheap</string>
+    <string name="cheap_th">ถูก</string>
+    <string name="ant_en">Ant</string>
+    <string name="ant_th">มด</string>
+    <string name="book_en">Book</string>
+    <string name="book_th">หนังสือ</string>
+    <string name="_1">1</string>
+    <string name="english_alphabets">English Alphabets</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_4">4</string>
+    <string name="braille">Braille</string>
+    <string name="character_is">Character is</string>
+    <string name="main_title">Scholarship</string>
+    <string name="sub_title_main1">Nationality \ndoes not \nmatter</string>
+    <string name="sub_title_main2">Explore the\nScholarship\nin your\ncountry</string>
+    <string name="sub_title_main3">Gain a\nvariety of\nexperience</string>
+    <string name="main_title_national">National Scholarship</string>
+    <string name="sub_title_national2">U.S.A</string>
+    <string name="sub_title_national3">Korea</string>
+    <string name="sub_title_national4">Thailand</string>
+    <string name="sub_title_national5">Philippines</string>
+    <string name="sub_title_national6">Japan</string>
+    <string name="main_title_international">International Scholarship</string>
+    <string name="main_title_scolarship">Scholarship Program</string>
+    <string name="sub_title_national1">Click to view more Info</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="app_name">QuizApp</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="login_to_continue">Login to continue</string>
+    <string name="dialog_quit_game">Would you to like leave?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+
+    <string name="username_cannot_empty">Username cannot be empty</string>
+    <string name="password_cannot_empty">Password cannot be empty</string>
+    <string name="old_password_cannot_be_empty">Old Password cannot be empty</string>
+    <string name="new_password_cannot_be_empty">New Password cannot be empty</string>
+    <string name="confirm_new_password_cannot_be_empty">Confirm New Password cannot be empty</string>
+    <string name="literature">Literature</string>
+    <string name="geography">Mathematics</string>
+    <string name="math">Math</string>
+    <string name="finish">Finish</string>
+    <string name="next">Next</string>
+    <string name="literature_quiz">Adabiyot</string>
+    <string name="geography_quiz">Geography</string>
+    <string name="rules1_description">Viktorina 10 ta tasodifiy savolni o`z ichiga oladi.</string>
+    <string name="rules2_description">Har bir to`g`ri javob sizga 5 ball beradi.</string>
+    <string name="rules3_description">Har bir noto`g`ri javob sizga 2 ball tushiradi.</string>
+    <string name="rules4_description">
+Natijalaringiz saqlanadi va tarixingizda to‘planadi.
+    </string>
+
+</resources>
