@@ -43,3 +43,7 @@ Through its inclusive design, **Veritas**:
 - Promotes empowerment and inclusivity by addressing challenges like device accessibility and financial constraints.  
 
 **Veritas** is more than an app; it is a platform fostering equity, inclusivity, and sustainable development, ensuring education for all.  
+
+## Demo Video
+
+https://github.com/user-attachments/assets/d4758419-0a34-4e3f-9f09-c612add3431b
